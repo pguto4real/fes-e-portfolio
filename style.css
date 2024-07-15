@@ -141,7 +141,7 @@ nav{
     text-align: center;
     border: none;
     color: #7342d6;
-    /* display: none; */
+    display: none;
     margin: 0 12px;
 }
 .menu__backdrop {
