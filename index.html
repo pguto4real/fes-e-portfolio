@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oluwamuibi Igbokwe</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/9beae3220a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -12,10 +13,45 @@
         <nav>
             <div id="personal__logo">Oluwamuibi Igbokwe</div>
             <ul class="nav__link--list">
-                <li class="nav__link"><a href="#languages" class="nav__link--anchor link__hover-effect link__hover-effect--black">Languages</a></li>
-                <li class="nav__link"><a href="#projects"class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a></li>
-                <li class="nav__link"><a class="nav__link--anchor nav__link--anchor-primary">Contact</a></li>
+                <li class="nav__link">
+                    <a href="#languages" class="nav__link--anchor link__hover-effect link__hover-effect--black">Languages
+
+                    </a>
+                </li>
+                <li class="nav__link">
+                    <a href="#projects"class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects
+
+                    </a>
+                </li>
+                <li class="nav__link">
+                    <a href="mailto::oluwamuibiigbokwe@gmail.com" target="_blank" class="nav__link--anchor nav__link--anchor-primary">Contact
+
+                    </a>
+                </li>
             </ul>
+            <button class="btn__menu" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="menu__links">
+                    <li class="menu__list">
+                        <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#languages" class="menu__link" onclick="closeMenu()">Languages</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#projects" class="menu__link " onclick="closeMenu()">Projects</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="mailto::oluwamuibiigbokwe@gmail.com" target="_blank" class="menu__link" onclick="closeMenu()">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
         </nav>
         <div class="flex flex-1">
             <div class="about-me__info row">
