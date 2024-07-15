@@ -142,6 +142,7 @@ nav{
     border: none;
     color: #7342d6;
     display: none;
+    margin: 0 12px;
 }
 .menu__backdrop {
     position: absolute;
