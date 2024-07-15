@@ -546,14 +546,14 @@ transition: all 300ms ease;
 }
 /* SMALL PHONES */
 @media(max-width:550px){
-    @media (max-width:550px){
+   
         .btn__menu{
             display: block;
         }
         .nav__link--list{
             display: none;
         }
-    }
+    
     .nav__link--anchor{
         margin: 0px;
     }
